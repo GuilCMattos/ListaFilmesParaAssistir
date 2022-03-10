@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-image: url("http://svite-league-apps-content.s3.amazonaws.com/bgimages/metal.jpg");
+    background-color: #000000;
+    /* background-size: cover; */
+    /* background-position: center top; */
+    background-repeat: repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+
+  p { 
+      font-size: 20px;
+      color: white;
+  }
+
+  #imagem {
+      padding: 10px;
+  }
+
+  .button1 { 
+        font-family: 'Montserrat', sans-serif;
+      color: white;
+      margin-left: 5px;
+      padding: 10px 20px 10px 20px;
+      border: none;
+      background-color: rgb(51, 51, 51);
+      border-radius: 10px;
+  }
+
+  .button1:hover { 
+      background-color: black;
+      color: red;
+      font-weight: bold;
+  }
+
+  
